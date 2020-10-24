@@ -11,45 +11,56 @@
 </head>
 <body>
 
-    <header> <!--Навигация-->
-        <nav><a href="./index.html" class="link">
-         <p class="link logo" lang="en"><span class="logo-part">Web</span>Studio</p>
-       </a>
-       <ul class="site-nav list">
-         <li><a href="./index.html" class="link">Студия</a></li>
-         <li><a href="./portfolio.html" class="link"><span class="special-blue">Портфолио</span></a></li>
-         <li><a href="#footer" class="link">Контакты</a></li>
-       </ul>
+    <header class="header">
+   
+        <div class="container header-container">
+           <!--Навигация-->
+            <nav class="navigation">
+              <a href="./index.html" class="link">
+             <p class="link logo" lang="en"><span class="logo-part">Web</span>Studio</p>
+           </a>
        
-   </nav>
-   
-   <ul class="auth-nav list">
-     <li><a href="#email" class="link"><span class="special-blue">info@devstudio.com</span></a></li>
-     <li><a href="#tel" class="link">+38(096)111-11-11</a></li>
-   </ul>
-                
-    </header>
-   
+           <ul class="site-nav list">
+             <li class="menu-item"><a href="./index.html" class="link menu-link">Студия</a></li>
+             <li class="menu-item"><a href="./portfolio.html" class="link menu-link current">Портфолио</a></li>
+             <li class="menu-item"><a href="#footer" class="link menu-link">Контакты</a></li>
+           </ul>
+           </nav> 
+           
+           <ul class="auth-nav list">
+             <li class="menu-item"><a href="#email" class="link contact-link"><span class="current">info@devstudio.com</span></a></li>
+             <li class="menu-item"><a href="#tel" class="link contact-link">+38(096)111-11-11</a></li>
+           </ul>
+         
+           </div>
+       
+       </header>
+    
     
 <main>
-    <!--Ссылки на разделы-->
-    <section>
-        <h1 hidden>Ссылки на разделы</h1>
+    
+    
+    <section class="section">
+
+        <div class="container">
+        <!--Кнопки для разделов-->
+        
+        <h1 hidden>Кнопки навигации для разделов</h1>
         <ul class="list">
             <li> 
-        <button type="button" class="link button">Все</button>
+        <button type="button" class="link button secondary">Все</button>
             </li>
             <li>
-                <button type="button" class="link button">Веб-сайты</button>
+                <button type="button" class="link button secondary">Веб-сайты</button>
             </li>
             <li>
-                <button type="button" class="link button">Приложения</button>
+                <button type="button" class="link button secondary">Приложения</button>
             </li>
             <li>
-                <button type="button" class="link button">Дизайн</button>
+                <button type="button" class="link button secondary">Дизайн</button>
             </li>
             <li>
-                <button type="button" class="link button">Маркетинг</button>
+                <button type="button" class="link button secondary">Маркетинг</button>
             </li>
         </ul> 
 
@@ -58,53 +69,55 @@
         <h2 hidden>Наши проекты</h2>
         <ul class="list">
             <li>
-                <img src="./images/techno.jpg" alt="Фото сайта">
+                <img src="./images/techno.jpg" alt="Фото сайта" width="370">
                 <h3 class="secondary-title">Технокряк</h3>
                 <p class="section-project">Веб-сайт</p>
             </li>
             <li>
-                <img src="./images/poster.jpg" alt="Постер с баскетболистами">
+                <img src="./images/poster.jpg" alt="Постер с баскетболистами" width="370">
                 <h3 class="secondary-title">Постер New Orlean vs Golden Star</h3>
                 <p class="section-project">Дизайн</p>
             </li>
             <li>
-                <img src="./images/seafood.jpg" alt="Лого ресторана">
+                <img src="./images/seafood.jpg" alt="Лого ресторана" width="370">
                 <h3 class="secondary-title">Ресторан Seafood</h3>
                 <p class="section-project">Приложение</p>
             </li>
             <li>
-                <img src="./images/prime.jpg" alt="Черные наушники">
+                <img src="./images/prime.jpg" alt="Черные наушники" width="370">
                 <h3 class="secondary-title">Проект Prime</h3>
                 <p class="section-project">Маркетинг</p>
             </li>
             <li>
-                <img src="./images/boxes.jpg" alt="Две коробки">
+                <img src="./images/boxes.jpg" alt="Две коробки" width="370">
                 <h3 class="secondary-title">Проект Boxes</h3>
                 <p class="section-project">Приложение</p>
             </li>
             <li>
-                <img src="./images/inspiration.jpg" alt="Монитор компьютера">
+                <img src="./images/inspiration.jpg" alt="Монитор компьютера" width="370">
                 <h3 class="secondary-title">Inspiration has no Borders</h3>
                 <p class="section-project">Веб-сайт</p>
             </li>
             <li>
-                <img src="./images/limited.jpg" alt="Журнал">
+                <img src="./images/limited.jpg" alt="Журнал" width="370">
                 <h3 class="secondary-title">Издание Limited Edition</h3>
                 <p class="section-project">Дизайн</p>
             </li>
             <li>
-                <img src="./images/lab.jpg" alt="Бирка на веревочке">
+                <img src="./images/lab.jpg" alt="Бирка на веревочке" width="370">
                 <h3 class="secondary-title">Проект LAB</h3>
                 <p class="section-project">Маркетинг</p>
             </li>
             <li>
-                <img src="./images/business.jpg" alt="Человек печатает текст на ноутбуке">
+                <img src="./images/business.jpg" alt="Человек печатает текст на ноутбуке" width="370" height="294">
                 <h3 class="secondary-title">Growing Business</h3>
                 <p class="section-project">Приложение</p>
             </li>
         </ul>
+        </div>
+
     </section>
-    
+
     
 </main>
 

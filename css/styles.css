@@ -270,6 +270,15 @@ p {
 }
 
 /*Преимущества*/
+.about-section .list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-section .li-item {
+  flex-basis: calc(100% / 4 - 30px);
+}
+
 .content-box {
   width: cal(100% - 90px) / 4;
 }
@@ -279,9 +288,11 @@ p {
 }
 
 .about-section {
-  margin-bottom: 94px;
   display: inline-block;
   justify-content: space-between;
+  margin-bottom: 94px;
+
+  background-color: var(--white);
 }
 
 .about-title {
@@ -306,7 +317,7 @@ p {
 }
 
 /*Наша команда*/
-.team-section {
+.team {
   padding-left: 0;
   padding-right: 0;
   padding-top: 186px;
@@ -316,45 +327,44 @@ p {
   width: auto;
 }
 
-.team-title {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  font-size: 16px;
-  line-height: 1.187;
-  text-align: center;
-}
-
-.team-position {
-  margin-left: 97px;
-  margin-right: 97px;
-  margin-bottom: 30px;
-  color: var(--main-text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.187;
-  text-align: center;
-}
-
-.grid {
+.team .list {
   display: flex;
-  flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
-}
-
-.grid-item {
-  margin-top: 50px;
-}
-
-.grid-item:nth-child(even) {
-  margin-right: -30px;
 }
 
 .team-item {
-  /*flex-basis: cal((100% -60px) / 4);*/
-
   text-align: center;
   background-color: var(--white);
+}
+
+.team-item {
+  background: var(--white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team .team-item + .team-item {
+  margin-left: 30px;
+}
+
+.team h3 {
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-style: normal;
+}
+
+.team p {
+  color: var(--main-text-color);
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
 }
 
 /*Для второй страницы Портфолио*/
@@ -372,14 +382,32 @@ p {
 }
 
 /*Футер*/
+.footer-box {
+  background-color: var(--dark-background);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .footer-logo {
+  margin-bottom: 20px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+
   color: var(--white);
 }
 
 .footer-address {
-  color: var(--white);
   font-weight: 400;
   text-align: left;
+}
+
+.footer-address .link {
+  color: var(--white);
+  margin-bottom: 9px;
+  display: inline-block;
+  font-style: normal;
 }
 
 .footer-contacts .link {

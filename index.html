@@ -56,7 +56,7 @@
       <section class="section about-section">
         <div class="container">
         <h2 class="section-title visually-hidden" >Преимущества</h2>
-        <ul class="list flexbox">
+        <ul class="list">
           <li class="content-box">
             <h3 class="about-title">Внимание к деталям</h3>
             <p class="about-info">
@@ -94,7 +94,7 @@
       <section class="section about-section">
         <div class="container">
         <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul class="list flexbox">
+        <ul class="list">
           <li class="content-box">
             <img
               src="./images/box1.jpg"
@@ -123,42 +123,49 @@
       
 
       <!-- Наша команда-->
-      <section class="section team-section">
+      <section class="section team">
         <div class="container">
         <h2 class="section-title">Наша команда</h2>
-        <ul class="list grid">
-          <li class="grid-item team-item">
+        <ul class="list">
+          <li class="team-item">
             <img
               src="./images/teamcard1.jpg"
               alt="Дизайнер мужчина в бордовой рубашке"
               width="270"
+              height="260"
             />
             <h3 class="team-title">Игорь Демьяненко</h3>
             <p class="team-position">Product Designer</p>
           </li>
-          <li class="grid-item team-item">
+          <li class="team-item">
             <img
               src="./images/teamcard2.jpg"
               alt="Фронэнд девелопер женщина"
               width="270"
+              height="260"
+            
             />
             <h3 class="team-title">Ольга Репина</h3>
             <p class="team-position">Frontend Developer</p>
           </li>
-          <li class="grid-item team-item">
+          <li class="team-item">
             <img
               src="./images/teamcard3.jpg"
               alt="Маркетолог мужчина в голубой рубашке"
               width="270"
+              height="260"
+            
             />
             <h3 class="team-title">Николай Тарасов</h3>
             <p class="team-position">Marketing</p>
           </li>
-          <li class="grid-item team-item">
+          <li class="team-item">
             <img
               src="./images/teamcard4.jpg"
               alt="UI Дизайнер мужчина в черной футболке"
               width="270"
+              height="260"
+            
             />
             <h3 class="team-title">Михаил Ермаков</h3>
             <p class="team-position">UI Designer</p>
@@ -169,21 +176,30 @@
     
     </main>
 
-    <!--Подвал сайта-->
-    <footer id="footer" class="dark-background">
-      <a href="./index.html" class="link">
-        <p class="link footer-logo"><span class="logo-part">Web</span>Studio</p>
-        
-      </a>
-      <address class="footer-address">
-        <p >г. Киев, пр-т Леси Украинки, 26</p>
+    <!--Подвал сайта--> 
+     <footer class="dark-background footer-box" id="footer">
+      <div class="container">
 
-        <div class="footer-contacts">
-        <a id="email" class="link list" href="mailto:info@example.com">info@example.com</a>
-        <a id="tel" class="link list" href="tel:+380991111111">+38(099) 111-11-11</a>
-      </div>
-    
+        <a href="./index.html" class="link"> </a>
+        <p class="link footer-logo" lang="en"><span class="logo-part">Web</span>Studio</p>
+        
+     <!--Адрес-->
+      <address class="footer-address">
+        <ul class="list">
+        <li>
+          <p class="link">г. Киев, пр-т Леси Украинки, 26</p>
+        </li>
+         <li class="footer-contacts">
+           <a id="email" class="link list" href="mailto:info@example.com">info@example.com</a>
+          </li> 
+         <li class="footer-contacts"> 
+           <a id="tel" class="link list" href="tel:+380991111111">+38(099) 111-11-11</a>
+          </li>
+        </ul>
+            
       </address>
+    </div>
+         
     </footer>
   </body>
 </html>

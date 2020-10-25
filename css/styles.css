@@ -448,7 +448,7 @@ p {
 }
 
 .projects .content-box {
-  width: calc((100% - 60px) / 3);
+  flex-basis: calc(100% / 3 - 30px);
   border: 1px solid var(--button);
 }
 

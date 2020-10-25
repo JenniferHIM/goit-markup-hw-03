@@ -38,77 +38,68 @@
     
     
 <main>
-    
-    
+       
     <section class="section">
 
         <div class="container">
-        <!--Кнопки для разделов-->
+            <div class="filter"> 
+     <!--Кнопки для разделов-->
         
-        <h1 hidden>Кнопки навигации для разделов</h1>
-        <ul class="list">
-            <li> 
-        <button type="button" class="link button secondary">Все</button>
-            </li>
-            <li>
-                <button type="button" class="link button secondary">Веб-сайты</button>
-            </li>
-            <li>
-                <button type="button" class="link button secondary">Приложения</button>
-            </li>
-            <li>
-                <button type="button" class="link button secondary">Дизайн</button>
-            </li>
-            <li>
-                <button type="button" class="link button secondary">Маркетинг</button>
-            </li>
-        </ul> 
-
+                <h1 class="visually-hidden">Кнопки навигации для разделов</h1>
+                <ul class="list">
+                    <li class="content-box"><button type="button" class="link button secondary">Все</button></li>
+                    <li class="content-box"><button type="button" class="link button secondary">Веб-сайты</button></li>
+                    <li class="content-box"><button type="button" class="link button secondary">Приложения</button></li>
+                    <li class="content-box"><button type="button" class="link button secondary">Дизайн</button></li>
+                    <li class="content-box"><button type="button" class="link button secondary">Маркетинг</button></li>
+                </ul> 
+            </div>
+            
     <!--Наши проекты с фото-->
         
-        <h2 hidden>Наши проекты</h2>
+        <h2 class="visually-hidden">Наши проекты</h2>
         <ul class="list">
-            <li>
+            <li class="content-box">
                 <img src="./images/techno.jpg" alt="Фото сайта" width="370">
                 <h3 class="secondary-title">Технокряк</h3>
                 <p class="section-project">Веб-сайт</p>
             </li>
-            <li>
+            <li class="content-box">
                 <img src="./images/poster.jpg" alt="Постер с баскетболистами" width="370">
                 <h3 class="secondary-title">Постер New Orlean vs Golden Star</h3>
                 <p class="section-project">Дизайн</p>
             </li>
-            <li>
+            <li class="content-box">
                 <img src="./images/seafood.jpg" alt="Лого ресторана" width="370">
                 <h3 class="secondary-title">Ресторан Seafood</h3>
                 <p class="section-project">Приложение</p>
             </li>
-            <li>
+            <li class="content-box">
                 <img src="./images/prime.jpg" alt="Черные наушники" width="370">
                 <h3 class="secondary-title">Проект Prime</h3>
                 <p class="section-project">Маркетинг</p>
             </li>
-            <li>
+            <li class="content-box">
                 <img src="./images/boxes.jpg" alt="Две коробки" width="370">
                 <h3 class="secondary-title">Проект Boxes</h3>
                 <p class="section-project">Приложение</p>
             </li>
-            <li>
+            <li class="content-box">
                 <img src="./images/inspiration.jpg" alt="Монитор компьютера" width="370">
                 <h3 class="secondary-title">Inspiration has no Borders</h3>
                 <p class="section-project">Веб-сайт</p>
             </li>
-            <li>
+            <li class="content-box">
                 <img src="./images/limited.jpg" alt="Журнал" width="370">
                 <h3 class="secondary-title">Издание Limited Edition</h3>
                 <p class="section-project">Дизайн</p>
             </li>
-            <li>
+            <li class="content-box">
                 <img src="./images/lab.jpg" alt="Бирка на веревочке" width="370">
                 <h3 class="secondary-title">Проект LAB</h3>
                 <p class="section-project">Маркетинг</p>
             </li>
-            <li>
+            <li class="content-box">
                 <img src="./images/business.jpg" alt="Человек печатает текст на ноутбуке" width="370" height="294">
                 <h3 class="secondary-title">Growing Business</h3>
                 <p class="section-project">Приложение</p>
@@ -122,23 +113,31 @@
 </main>
 
     <!--Подвал сайта-->
-    <footer id="footer" class="dark-background">
-        <a href="./index.html" class="link">
-          <p class="link footer-logo"><span class="logo-part">Web</span>Studio</p>
+    
+     <footer class="dark-background footer-box" id="footer">
+        <div class="container">
+  
+          <a href="./index.html" class="link"> </a>
+          <p class="link footer-logo" lang="en"><span class="logo-part">Web</span>Studio</p>
           
-        </a>
-
+       <!--Адрес-->
         <address class="footer-address">
-          <p >г. Киев, пр-т Леси Украинки, 26</p>
-  
-          <div class="footer-contacts">
-          <a id="email" class="link list" href="mailto:info@example.com" >info@example.com</a>
-          <a id="tel" class="link list" href="tel:+380991111111">+38(099) 111-11-11</a>
-        </div>
-  
+          <ul class="list">
+          <li>
+            <p class="link">г. Киев, пр-т Леси Украинки, 26</p>
+          </li>
+           <li class="footer-contacts">
+             <a id="email" class="link list" href="mailto:info@example.com">info@example.com</a>
+            </li> 
+           <li class="footer-contacts"> 
+             <a id="tel" class="link list" href="tel:+380991111111">+38(099) 111-11-11</a>
+            </li>
+          </ul>
+              
         </address>
+      </div>
+           
       </footer>
-        
-      
+       
 </body>
 </html>

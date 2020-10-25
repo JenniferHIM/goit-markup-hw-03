@@ -19,7 +19,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
   background-color: var(--white);
-  width: 1600px;
 }
 
 address {
@@ -61,7 +60,6 @@ p {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-  outline: 2px solid tomato;
 }
 
 /*Список без маркеров*/
@@ -97,8 +95,6 @@ p {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin-left: 215px;
-  margin-right: 215px;
 }
 
 /*Логотип*/
@@ -217,6 +213,7 @@ p {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
@@ -288,7 +285,6 @@ p {
 }
 
 .about-section {
-  display: inline-block;
   justify-content: space-between;
   margin-bottom: 94px;
 
@@ -320,7 +316,7 @@ p {
 .team {
   padding-left: 0;
   padding-right: 0;
-  padding-top: 186px;
+  padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--button);
   color: var(--title-color);

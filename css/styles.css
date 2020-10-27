@@ -60,6 +60,7 @@ p {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
+  border: 1px solid tomato;
 }
 
 /*Список без маркеров*/
@@ -172,6 +173,7 @@ p {
 .section {
   padding-left: 215px;
   padding-right: 215px;
+
   font-weight: bold;
   line-height: 1.167;
 }
@@ -290,7 +292,7 @@ p {
 
 .about-section {
   justify-content: space-between;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 
   background-color: var(--white);
 }
@@ -401,6 +403,10 @@ p {
 }
 
 /*Для второй страницы Портфолио*/
+.secondary {
+  padding-top: 94px;
+}
+
 .secondary-title {
   color: var(--title-color);
   font-size: 18px;
@@ -413,7 +419,7 @@ p {
   margin-bottom: 4px;
 }
 
-.section-project {
+.project-title {
   color: var(--main-text-color);
   font-size: 16px;
   line-height: 1.87;

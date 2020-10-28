@@ -450,31 +450,33 @@ p {
 
 /*Секция Filter*/
 
-.filter-box{
+.filter-box {
   display: flex;
   justify-content: center;
-   
+    
 }
+
+
+  .filter-box .item {
+    display: inline-block;
+    /*justify-content: center;*/
+    align-items: center;
+    margin-top: 94px;
+    margin-bottom: 50px;
+  }
+  
+  .item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  
+  text-align: center;
+  letter-spacing: 0.03em;
+  }
 
 .filter-box .item:not(:last-child){
   margin-right: 8px;
-}
-
-.filter-box .item {
-  display: inline-block;
-  align-items: center;
-  margin-top: 94px;
-  margin-bottom: 50px;
-}
-
-.item {
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-
-text-align: center;
-letter-spacing: 0.03em;
 }
 
 .filter-button {

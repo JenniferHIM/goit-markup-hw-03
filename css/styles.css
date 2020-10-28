@@ -60,7 +60,7 @@ p {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-  border: 1px solid tomato;
+  
 }
 
 /*Список без маркеров*/
@@ -450,12 +450,15 @@ p {
 
 /*Секция Filter*/
 
+.container .container-top {
+  max-width: 1200px;
+}
+
 .filter-box {
   display: flex;
   justify-content: center;
     
 }
-
 
   .filter-box .item {
     display: inline-block;
@@ -543,3 +546,4 @@ p {
   padding-right: 24px;
   padding-left: 24px; */
 }
+

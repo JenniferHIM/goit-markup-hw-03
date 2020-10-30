@@ -173,9 +173,7 @@ p {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  padding-left: 215px;
-  padding-right: 215px;
-
+ 
   font-weight: bold;
   line-height: 1.167;
 }
@@ -257,10 +255,10 @@ p {
 }
 
 /*Преимущества*/
-/*.section .about-section {
+.section .about-section {
   padding-left: 0;
   padding-right: 0;
-}*/
+}
 
 .about-section .list {
   display: flex;

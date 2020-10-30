@@ -171,6 +171,8 @@ p {
 
 /*Секция и заголовок секции*/
 .section {
+  padding-top: 94px;
+  padding-bottom: 94px;
   padding-left: 215px;
   padding-right: 215px;
 
@@ -198,7 +200,6 @@ p {
 
 /*Секция героя*/
 .hero {
-  margin-bottom: 94px;
   letter-spacing: 0.06em;
   text-align: center;
   height: 600px;
@@ -256,6 +257,11 @@ p {
 }
 
 /*Преимущества*/
+/*.section .about-section {
+  padding-left: 0;
+  padding-right: 0;
+}*/
+
 .about-section .list {
   display: flex;
   justify-content: space-between;
@@ -275,8 +281,7 @@ p {
 
 .about-section {
   justify-content: space-between;
-  padding-bottom: 94px;
-
+  
   background-color: var(--white);
 }
 
@@ -452,11 +457,13 @@ p {
 
 .container .container-top {
   max-width: 1200px;
+  
 }
 
 .filter-box {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
     
 }
 
@@ -464,8 +471,8 @@ p {
     display: inline-block;
     /*justify-content: center;*/
     align-items: center;
-    margin-top: 94px;
-    margin-bottom: 50px;
+    padding-top: 94px;
+    
   }
   
   .item {
@@ -502,17 +509,11 @@ p {
   
 }
 
-
-
 /*Карточки*/
 
 .project-list {
   display: flex;
   flex-wrap: wrap;
-}
-
-.our-projects .container {
-  padding-right: 0;
 }
 
 .our-project-card:not(:nth-child(3n)) {
